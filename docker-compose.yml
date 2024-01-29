@@ -1,8 +1,5 @@
 version: '3'
 
-networks:
-    nginx-php74-mysql8-node:
-
 services:
 
     # nginx
@@ -18,7 +15,7 @@ services:
             - php74-service
             - mysql8-service
         networks:
-            - nginx-php74-mysql8-node
+            - my-main-net
 
     # php
     php74-service:
