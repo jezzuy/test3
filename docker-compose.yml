@@ -59,6 +59,3 @@ services:
         networks:
             - nginx-php74-mysql8-node
            
-networks:
-  my-main-net:
-    external: true
